@@ -6,30 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Домашняя работа</title>
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./fonts/" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="navigation">
-      <div class="fonehad">
+    <div class="box_heder">
+      <header class="navigation">
         <nav class="menu">
-          <li><a href="#">home page</a></li>
-          <li><a href="#">about autor</a></li>
-          <li><a href="#">works</a></li>
-          <li><a href="#">process</a></li>
-          <li><a href="#">contacts</a></li>
+          <ul>
+            <a href="#">home page</a>
+          </ul>
+          <ul>
+            <a href="#">about autor</a>
+          </ul>
+          <ul>
+            <a href="#">works</a>
+          </ul>
+          <ul>
+            <a href="#">process</a>
+          </ul>
+          <ul>
+            <a href="#">contacts</a>
+          </ul>
         </nav>
+      </header>
+      <div class="fonehad navigation">
         <h1>Design and layout</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
           explicabo vero quia temporibus a nihil ipsum tenetur nisi blanditiis.
-          Accusantium expedita sapiente dignissimos soluta odio eum nisi ea.
-          Officia, maiores.
         </p>
-        <div class="btn"><a href="#">write me</a></div>
+        <a class="btn" href="#">write me</a>
       </div>
-    </header>
+    </div>
     <main>
-      <thead>
+      <div class="text">
         <h2>About me</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, eos
@@ -37,9 +48,9 @@
           repudiandae similique distinctio! Inventore, mollitia expedita
           doloribus recusandae facere eos cum sapiente?
         </p>
-      </thead>
-      <tbody>
-        <div class="picture">
+      </div>
+      <div class="picture">
+        <div class="box">
           <ul class="icon">
             <li>
               <img
@@ -48,7 +59,7 @@
                 width="50px"
                 height="50px"
               />
-              <div class="text">
+              <div class="icon_text">
                 <strong>40+</strong>
                 <span>prolects</span>
               </div>
@@ -60,7 +71,7 @@
                 width="50px"
                 height="50px"
               />
-              <div class="text">
+              <div class="icon_text">
                 <strong>40+</strong>
                 <span>prolects</span>
               </div>
@@ -72,7 +83,7 @@
                 width="50px"
                 height="50px"
               />
-              <div class="text">
+              <div class="icon_text">
                 <strong>40+</strong>
                 <span>prolects</span>
               </div>
@@ -84,7 +95,7 @@
                 width="50px"
                 height="50px"
               />
-              <div class="text">
+              <div class="icon_text">
                 <strong>40+</strong>
                 <span>prolects</span>
               </div>
@@ -96,7 +107,7 @@
                 width="50px"
                 height="50px"
               />
-              <div class="text">
+              <div class="icon_text">
                 <strong>40+</strong>
                 <span>prolects</span>
               </div>
@@ -108,32 +119,37 @@
                 width="50px"
                 height="50px"
               />
-              <div class="text">
+              <div class="icon_text">
                 <strong>40+</strong>
                 <span>prolects</span>
               </div>
             </li>
           </ul>
         </div>
-        <div class="video">
-          <h2>How do i work</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            quaerat iusto sequi ex reprehenderit, aliquam officia minus vitae
-            dolor quae architecto commodi ad dolorem atque maiores at.
-            Excepturi, accusamus laborum.
-          </p>
-          <iframe
-            src="./video/LADY GAGA - BLOODY MARY (Tik Tok Remix _ Speed Up) Wednesday Addams _ Dance Scene_mobclip.net.mp4"
-            frameborder=""
-          ></iframe>
-        </div>
-      </tbody>
+      </div>
+      <div class="text">
+        <h2>How do i work</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          quaerat iusto sequi ex reprehenderit, aliquam officia minus vitae
+          dolor quae architecto commodi ad dolorem atque maiores at. Excepturi,
+          accusamus laborum.
+        </p>
+      </div>
+      <div class="video">
+        <video
+          src="./video/LADY GAGA - BLOODY MARY (Tik Tok Remix _ Speed Up) Wednesday Addams _ Dance Scene_mobclip.net.mp4"
+          alt="LADY_GAGA"
+          width="1000px"
+        ></video>
+      </div>
     </main>
     <footer>
       <div class="sign">
-        <h3>John Smit</h3>
-        <span>(c)2018 All rights reserved</span>
+        <div class="footer">
+          <h3>John Smit</h3>
+          <span>(c)2018 All rights reserved</span>
+        </div>
       </div>
     </footer>
   </body>
